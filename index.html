@@ -1,0 +1,565 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into Light&amp;display=swap" media="all" id="shr-font-shadows-into light">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="./templates/template5/t5-style.css" rel="stylesheet">
+        <link href="./templates/common/css/star-rating.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css">
+        <script src="https://connect.facebook.net/en_US/sdk.js?hash=9fd289b669a723c54e0d115f45a6f418&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script async="" defer="" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v5.0"></script>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui">
+        <meta property="og:image" itemprop="image" content="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1600403086010.jpeg">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="keyur and vinod" />
+        <title>OSWAL TRAVEL NETWORK</title>
+        <link rel="manifest" id="manifest-placeholder">
+        <script>
+            var dynamicManifest = {
+                "name": "OSWAL",
+                "short_name": "OSWAL",
+                "description": "OSWAL",
+                "start_url": "https://www.tocard.in/the-cars",
+                "background_color": "#000000",
+                "theme_color": "#0f4a73",
+                "icons": [{
+                    "src": "https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1600403086010.jpeg",
+                    "sizes": "256x256",
+                    "type": "image/png"
+                }],
+                "display": "standalone"
+            }
+            const stringManifest = JSON.stringify(dynamicManifest);
+            const blob = new Blob([stringManifest], {type: 'application/json'});
+            const manifestURL = URL.createObjectURL(blob);
+            document.querySelector('#manifest-placeholder').setAttribute('href', manifestURL);
+        </script>
+        <script>
+            function ColorLuminance(hex, lum) {
+                // validate hex string
+                hex = String(hex).replace(/[^0-9a-f]/gi, '');
+                if (hex.length < 6) {
+                    hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
+                }
+                lum = lum || 0;
+
+                // convert to decimal and change luminosity
+                var rgb = "#", c, i;
+                for (i = 0; i < 3; i++) {
+                    c = parseInt(hex.substr(i*2,2), 16);
+                    c = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);
+                    rgb += ("00"+c).substr(c.length);
+                }
+
+                return rgb;
+            }
+            document.documentElement.style.setProperty('--theme-color', '#ec3835');
+            document.documentElement.style.setProperty('--theme-color-light', '#ec383526');
+            document.documentElement.style.setProperty('--theme-color-dark1', ColorLuminance('#ec3835', -0.20));
+            document.documentElement.style.setProperty('--theme-color-dark2', ColorLuminance('#ec3835', -0.40));
+            document.documentElement.style.setProperty('--theme-color-dark3', ColorLuminance('#ec3835', -0.60));
+        </script>
+    </head>
+    <body>
+        <div class="page-wrapper" id="home-section">
+            <div class="corner"></div>
+            <div class="views-label"><i class="fas fa-eye"></i> Views: <b>335</b></div>
+            <div class="upper">
+                <!-- User Profile Pic -->
+                <img src="./IMAGES/travel network.jpg" class="profile-pic-img">
+                <!-- User Company Name -->
+                <div class="firmname">OSWAL TRAVEL &amp; NETWORK</div>
+                <div style="width: 40%;background-color: #ec3835;height:2px;margin-bottom: 10px;"></div>
+                <!-- User First Name and Last Name -->
+                <div class="name"> KEYUR &amp; VINOD</div>
+                
+                <div class="contact-buttons">
+                    <a class="contact-button" href="tel:9833228914">
+                        <i class="fas fa-phone fa-flip-horizontal"></i>
+                        <!-- Call -->
+                    </a>
+                    <a class="contact-button" target="_blank" href="https://wa.me/919833228914?text=Got reference from your Digital vCard. Want to know more about your services.">
+                        <i class="fab fa-whatsapp"></i>
+                        <!-- Whatsapp -->
+                    </a>
+                    <a class="contact-button" target="_blank" >
+                        <i class="fas fa-map-marker-alt fa-flip-horizontal"></i>
+                        <!-- Direction -->
+                    </a>
+                    <a class="contact-button" target="_blank" href="mailto:keyur9833228914@gmail.com">
+                        <i class="fas fa-envelope fa-flip-horizontal"></i>
+                        <!-- Mail -->
+                    </a>
+                </div>
+            </div>
+            <div class="lower">
+                <table class="contact-action-table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="trapezoid">
+                                    <a target="_blank" href="tel:9833228914" class="contact-action-container-icon">
+                                        <i class="fas fa-phone fa-flip-horizontal"></i>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <a target="_blank" href="tel:9833228914" class="contact-action-container-text">
+                                +919833228914(Kandivali)
+                                </a>
+                                <br /><a target="_blank" href="tel:9322160415" class="contact-action-container-text">
+                                        +919322160415(vileparle)
+                                    </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="trapezoid">
+                                    <a target="_blank"  class="contact-action-container-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <a target="_blank"  class="contact-action-container-text address-text">
+                                    Mumbai
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="trapezoid">
+                                    <a target="_blank" href="mailto:Keyur9833228914@gmail.com" class="contact-action-container-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="mailto:Keyur9833228914@gmail.com" class="contact-action-container-text">
+                                    Keyur9833228914@gmail.com
+                                </a>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <div style="padding: 15px;">
+                    <div class="p-30"></div>
+                    <div class="whatsapp-input">
+                        <div class="input-wrapper">
+                            <input type="tel" id="whatsapp-input" class="input" placeholder="Enter whatsapp number" oninput="this.value=this.value.replace(/[^0-9]/g,'');"/>
+                        </div>
+                        <a class="whatsapp-button" target="_blank" href="javascript:;" onclick="handleWhatsappShare(this)">
+                        <i class="fab fa-whatsapp"></i>Share on Whatsapp
+                        </a>
+                    </div>
+                    <div class="p-20"></div>
+                    <div class="shadow-buttons">
+                        <a class="shadow-button" href="./testing.doc" download=""><i class="fas fa-download shadow-button-icon"></i>Add to Phone Book</a>
+                        <a class="shadow-button" onclick="openShareModal(this, `OSWAL`)"><i class="fas fa-share-alt shadow-button-icon"></i>Share</a>
+                    </div>
+                    <div><a class="shadow-button save-card-button"><i class="fas fa-cloud-download-alt shadow-button-icon"></i>Save Card</a></div>
+                    <div class="p-30"></div>
+                    <ul class="inprofile share-buttons">
+                        <li class="share-button">
+                                <a target="_blank" ><i class="share-button-facebook fab fa-facebook-f"></i></a>
+                            </li>
+                        <li class="share-button">
+                                <a target="_blank" ><i class="share-button-twitter fab fa-twitter"></i></a>
+                            </li>
+                        <li class="share-button">
+                                <a target="_blank" ><i class="share-button-instagram fab fa-instagram"></i></a>
+                            </li>
+                        <li class="share-button">
+                                <a target="_blank" ><i class="share-button-youtube fab fa-youtube"></i></a>
+                            </li>
+                        <li class="share-button">
+                                <a target="_blank" ><i class="share-button-pinterest fab fa-pinterest-p"></i></a>
+                            </li>
+                        <li class="share-button">
+                                <a target="_blank" ><i class="share-button-linkedin fab fa-linkedin-in"></i></a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="corner-bottom"></div>
+        </div>
+        
+        <div class="section-container" id="about-us-section">
+            <div class="corner"></div>
+            <h2 class="section-header">About Us</h2>
+            <div style="width: 20%;background-color: #ec3835;height:2px;margin: 0 auto;margin-bottom: 20px;"></div>
+            <table class="about-us-table">
+                <tbody>
+                    <tr>
+                        <td class="table-row-label">
+                            <h3 class="table-row-label-text">Company Name</h3><b class="table-row-label-separator">:</b>
+                        <td>
+                        <td class="table-row-value">
+                           OSWAL TRAVLE &AMP; NETWORK
+                        <td>
+                    </tr>
+                    <tr>
+                            <td class="table-row-label">
+                                <h3 class="table-row-label-text">Year of Est.</h3><b class="table-row-label-separator">:</b>
+                            <td>
+                            <td class="table-row-value">
+                                2020
+                            <td>
+                        </tr>
+                    <tr>
+                            <td class="table-row-label">
+                                <h3 class="table-row-label-text">Nature Of Business</h3><b class="table-row-label-separator">:</b>
+                            <td>
+                            <td class="table-row-value">
+                             Providing Services for travellors.
+                            <td>
+                        </tr>
+                </tbody>
+            </table>
+            <h3 class="speciality-label">Our Specialities</h3>
+                <ul class="unorderedList">
+                    
+                            <li>BUS TICKETING</li>
+                            
+                            <li>CAR RENTAL</li>
+                            
+                            <li>FLIGHT BOOKING</li>
+                            
+                            <li>TRAIN TICKETING</li>
+                            
+                            <li>HOTELS AND RESORT</li>
+                            
+                            <li>PACKAGES</li>
+                            
+                            <li>INSURANCE</li>
+                            
+                            <li>PASSPORT AND VISA ASSISTANCE</li>
+                            
+                          
+                </ul>
+            <div class="about-us-text"></div>
+            
+            
+            <div class="corner-bottom"></div>
+        </div>
+        <div class="section-container" id="products-services-section">
+                <div class="corner"></div>
+                <h2 class="section-header">Products/Services</h2>
+                <div style="width: 20%;background-color: #ec3835;height:2px;margin: 0 auto;margin-bottom: 20px;"></div>
+                <div>
+                   
+                    <div class="card">
+                        <h3 class="card-title"></h3>
+                        <div class="product-description"><p><center>BUS TICKETING</center></p><p>Details:VOLVO BUS;</p></div>
+                        <img onclick="openImageModal(this)" alt="BUS" src="./IMAGES/volvobus.jpg" style="width:100%;margin-bottom: 15px;">
+                        <div class="product-enquiry-section">
+        <div class="product-price">
+        For Details:
+        </div>
+        <a href="https://wa.me/919833228914?text=Hi, I am interested in your product/service:BUS TICKETING. Please provide more details." target="blank" class="product-enquiry-btn">Enquiry</a>
+    </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">AIRLINE TICKETING</h3>
+                        <div class="product-description"> </div>
+                        <img onclick="openImageModal(this)" alt="FLIGHT" src="./IMAGES/flight.jpg" style="width:100%;margin-bottom: 15px;">
+                        <div class="product-enquiry-section">
+        <div class="product-price">
+        For Details:
+        </div>
+        <a href="https://wa.me/919833228914?text=Hi, I am interested in your product/service:AIRLINE TICKETING. Please provide more details." target="blank" class="product-enquiry-btn">Enquiry</a>
+    </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">CAR RENTAL</h3>
+                        <div class="product-description"></div>
+                        <img onclick="openImageModal(this)" alt="CAR" src="./IMAGES/car.jpg" style="width:100%;margin-bottom: 15px;">
+                        <div class="product-enquiry-section">
+        <div class="product-price">
+        For Details:
+        </div>
+        <a href="https://wa.me/919833228914?text=Hi, I am interested in your product/service: CAR BOOKING. Please provide more details." target="blank" class="product-enquiry-btn">Enquiry</a>
+    </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">TRAIN BOOKING</h3>
+                        <div class="TRAIN"></div>
+                        <img onclick="openImageModal(this)" alt="TRAIN" src="./IMAGES/train.jpg" style="width:100%;margin-bottom: 15px;">
+                        <div class="product-enquiry-section">
+        <div class="product-price">
+        For Details:
+        </div>
+        <a href="https://wa.me/919833228914?text=Hi, I am interested in your product/service: Train Ticketing. Please provide more details." target="blank" class="product-enquiry-btn">Enquiry</a>
+    </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">HOTEL AND RESORT</h3>
+                        <div class="product-description"></div>
+                        <img onclick="openImageModal(this)" alt="Hotel and resort" src="./IMAGES/resort.jpg" style="width:100%;margin-bottom: 15px;">
+                        <div class="product-enquiry-section">
+        <div class="product-price">
+        For Details:
+        </div>
+        <a href="https://wa.me/919833228914?text=Hi, I am interested in your product/service: Hotel and resort. Please provide more details." target="blank" class="product-enquiry-btn">Enquiry</a>
+    </div>
+                    </div>
+                    
+                    <div class="card">
+                            <ul class="unorderedList">
+                            
+                                    
+                                            <li style="margin-bottom: 10px;">
+                                                <b>Need Swift / WagonR 2011</b>
+                                                <div class="product-description"><p>Need Swift / WagonR 2011</p></div>
+                                            </li>
+                                        
+                                    
+                                    
+                                            <li style="margin-bottom: 10px;">
+                                                <b>Need car </b>
+                                                <div class="product-description"><p>Need car in good condition</p></div>
+                                            </li>
+                                        
+                                    
+                                    <li></li>
+                                    
+                            </ul>
+                        </div>
+                </div>
+                <div class="corner-bottom"></div>
+
+            </div>
+        <div class="section-container" id="payment-options-section">
+            <div class="corner"></div>
+            <h2 class="section-header">Payment</h2>
+                <div style="width: 20%;background-color: #ec3835;height:2px;margin: 0 auto;margin-bottom: 20px;"></div>
+                <div>
+                    <table class="about-us-table">
+                        <tbody>
+                            <tr>
+                                    <td class="table-row-label">
+                                        <h3 class="table-row-label-text">Paytm Number</h3><b class="table-row-label-separator">:</b>
+                                    <td>
+                                    <td class="table-row-value">
+                                        9820805379
+                                    <td>
+                                </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                    
+                    
+                </div>
+                <div class="corner-bottom"></div>
+            </div>
+        <div class="section-container" id="gallery-section">
+                <div class="corner"></div>
+                <h2 class="section-header">Gallery</h2>
+                <div style="width: 20%;background-color: #ec3835;height:2px;margin: 0 auto;margin-bottom: 20px;"></div>
+                <div class="images-container">
+                <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 1" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596019501212.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 2" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596019916048.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 3" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596019934833.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 4" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596019995363.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 5" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596020027114.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 6" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596020082686.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 7" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596032035248.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 8" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596089902089.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 9" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596089911424.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 10" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1596089917290.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 11" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1599198860398.jpg" style="width:100%">
+                    </div>
+                    <div class="image-wrapper">
+                        <img onclick="openImageModal(this)" alt="Image 12" src="https://vcard-bucket.s3.us-east-2.amazonaws.com/A12/1064/1600319995652.jpg" style="width:100%">
+                    </div>
+                    
+                </div>
+                <div class="corner-bottom"></div>
+            </div>
+        
+        <div class="section-container" id="feedback-section">
+                <div class="corner"></div>
+                <h2 class="section-header">Feedbacks</h2>
+                <div style="width: 20%;background-color: #ec3835;height:2px;margin: 0 auto;margin-bottom: 20px;"></div>
+                <div class="feedback-list">
+                    
+                </div>
+                <form class="feedback-form card" novalidate>
+                    <div class="feedback-form-heading">Give Feedback</div>
+                    <select class="star-rating" id="rating" name="rating">
+                        <option value="">Select a rating</option>
+                        <option value="5">Excellent</option>
+                        <option value="4">Very Good</option>
+                        <option value="3">Average</option>
+                        <option value="2">Poor</option>
+                        <option value="1">Terrible</option>
+                    </select>
+                    <input type="text" name="feedbackName" id="feedbackName" placeholder="Enter Full Name"/>
+                    <textarea name="feedback" id="feedback" placeholder="Enter your feedback"></textarea>
+                    <!-- Message:<br/> -->
+                    <input type="button" value="Give Feedback" onclick="sendFeedback(this, 'the-cars')"/>
+                </form>
+                <div class="corner-bottom"></div>
+            </div>
+        
+            <div class="section-container" id="enquiry-section">
+                <div class="corner"></div>
+                <h2 class="section-header">Enquiry Form</h2>
+                <div style="width: 20%;background-color: #ec3835;height:2px;margin: 0 auto;margin-bottom: 20px;"></div>
+                <form class="enquiry-form" novalidate>
+                    <!-- Full Name:<br/> -->
+                    <input type="text" name="enquiryName" id="enquiryName" placeholder="Enter Full Name"/><br/>
+                    <div class="flex">
+                        <div class="enquiry-phoneNumber">
+                            <!-- Phone Number:<br/> -->
+                            <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Enter Phone Number"/><br/>
+                        </div>
+                        <div class="enquiry-email">
+                            <!-- Email:<br/> -->
+                            <input type="text" name="email" id="email" placeholder="Enter Email"/><br/>
+                        </div>
+                    </div>
+                    <!-- Message:<br/> -->
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea><br/>
+                    <input type="button" value="Send" onclick="sendEnquiry(this, 'keyur9833228914@gmail.com')"/>
+                </form>
+                <div class="corner-bottom"></div>
+            </div>
+            
+        <div class="copyright-wrapper">
+            <div class="copyright-wrapper-inner">
+                © 2020 <a href="http://tocard.in" target="_blank"><b>tocard.in</b></a>
+            </div>
+        </div>
+        <!-- Footer Menu -->
+        <div class="footer">
+            <ul class="footer-menu">
+                <li>
+                    <a class="footer-menu-link" href="#home-section">
+                        <i class="footer-menu-icon fas fa-home"></i>
+                        <div class="footer-menu-text">HOME</div>
+                    </a>
+                </li>
+                <li>
+                        <a class="footer-menu-link" href="#about-us-section">
+                            <i class="footer-menu-icon fas fa-briefcase"></i>
+                        <div class="footer-menu-text">ABOUT US</div>
+                        </a>
+                    </li>
+                <li>
+                        <a class="footer-menu-link" href="#products-services-section">
+                            <i class="footer-menu-icon fas fa-box-open"></i>
+                        <div class="footer-menu-text">PRODUCTS</div>
+                        </a>
+                    </li>
+                <li>
+                        <a class="footer-menu-link" href="#payment-options-section">
+                            <i class="footer-menu-icon fas fa-money-bill-alt"></i>
+                        <div class="footer-menu-text">PAYMENT</div>
+                        </a>
+                    </li>
+                <li>
+                        <a class="footer-menu-link" href="#gallery-section">
+                            <i class="footer-menu-icon fas fa-file-image"></i>
+                            <div class="footer-menu-text">GALLERY</div>
+                        </a>
+                    </li>
+                
+                <li>
+                        <a class="footer-menu-link" href="#feedback-section">
+                            <i class="footer-menu-icon fas fa-star"></i>
+                            <div class="footer-menu-text">FEEDBACK</div>
+                        </a>
+                    </li>
+                <li>
+                        <a class="footer-menu-link" href="#enquiry-section">
+                            <i class="footer-menu-icon fas fa-comment-alt"></i>
+                            <div class="footer-menu-text">ENQUIRY</div>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+        <!-- The image Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close" id="imageModalClose">&times;</span>
+            <img class="modal-content fadeIn" id="img01">
+            <div id="caption"></div>
+        </div>
+        <!-- The share Modal -->
+        <div id="shareModal" class="modal share-modal">
+            <div class="share-form fadeInUpBig">
+                <div class="share-form-header">
+                    <h3 class="share-form-header-text">Share Profile</h3>
+                    <span class="close" id="shareModalClose">&times;</span>
+                </div>
+                <div class="share-form-buttons-container">
+                    <p>Share my Digital vCard in your network.</p>
+                    <div class="share-buttons-heading">
+                        <img src="../templates/template5/tild-arrow.svg" class="share-buttons-arrow">
+                        <div class="share-buttons-heading-text">Share my Digital vCard</div>
+                    </div>
+                    <ul class="share-buttons">
+                        <li class="share-button">
+                        <a href="javascript:;" target="_blank" onclick="handleDirectWhatsappShare(this, 9833228914)">
+                                <i class="share-button-whatsapp fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li class="share-button">
+                            <a target="_blank" href="sms:?body=http://tocard.in/the-cars">
+                                <i class="share-button-sms fas fa-comment-dots"></i>
+                            </a>
+                        </li>
+                        <li class="share-button">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://tocard.in/the-cars&src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                                <i class="share-button-facebook fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="share-button">
+                            <a target="_blank" href="https://twitter.com/intent/tweet?text=http://tocard.in/the-cars" data-size="large">
+                                <i class="share-button-twitter fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="share-button">
+                            <i class="share-button-skype fab fa-skype"></i>
+                        </li>
+                        <li class="share-button">
+                            <i class="share-button-pinterest fab fa-pinterest-p"></i>
+                        </li>
+                        <li class="share-button">
+                            <i class="share-button-linkedin fab fa-linkedin-in"></i>
+                        </li>
+                        <li class="share-button">
+                            <i class="share-button-mail fas fa-envelope"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js"></script>
+        <script src="../templates/common/js/star-rating.js"></script>
+        <script src="../templates/common/js/script.js"></script>
+    </body>
+</html>
+    
